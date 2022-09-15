@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "reloj";
+    src: url("../assets/fuentes/DS-DIGII.TTF");
+}
+body{
+    background-color: #A5CECE;
+    font-family: "reloj";
+}
+.contenedorreloj{
+    width: 700px;
+    height: 700px;
+    background-image: url("../assets/imagenes/reloj.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedorhora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hora{
+    color: white;
+    font-size: 5em;
+    margin: 0px;
+}
+.segundos{
+    color: white;
+    font-size: 2em;
+    margin: 0px;
+}
+.display{
+    position: relative;
+    left: 650px;
+    bottom: 250px;
+    width: 50px;
+}
+.blanco{
+    color: white;
+    width: 50px;
+}
